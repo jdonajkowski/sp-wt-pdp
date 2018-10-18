@@ -1,0 +1,16 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "react",
+    "pnpFramework": "react"
+  },
+  "@microsoft/generator-sharepoint": {
+    "framework": "react",
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "sp-wt-pdp",
+    "libraryId": "335ad414-6956-42c9-bb30-78501f90fd7f",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wt-pdp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wtPdp/WtPdpWebPart.js",
+          "manifest": "./src/webparts/wtPdp/WtPdpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WtPdpWebPartStrings": "lib/webparts/wtPdp/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
